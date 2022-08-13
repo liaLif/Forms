@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="forms.css">
+  <title>She Rules!</title>
+</head>
+<body>
+  <section class="container">
+    <h1>She Rules!</h1>
+    <h3>
+      Hey there, and welcome to She Rules! <br>
+      The she codes; super hero league <br>
+      We are looking for amazing women like you! <br>
+      Register to join us ;)
+    </h3>
+    <div class="panel panel-default">
+      <div class="panel-heading"> Sign up here</div>
+      <div class="panel-body">
+        <form action="">
+          <label for="name">SuperHero Name:</label>
+          <input type="text" id="name" placeholder="Enter Name" required> 
+          <label for="email">SuperHero Email:</label>
+          <input type="email" id="email" placeholder="Enter Email" required> 
+          <label for="branch">Headquarters:</label>
+          <input list="branches" id="branch" placeholder="Your Branch" required>
+          <datalist id="branches">
+            <option value="Haifa">Haifa</option>
+            <option value="Netanya">Netanya</option>
+            <option value="Tel-Aviv">Tel-Aviv</option>
+            <option value="Jerusalem">Jerusalem</option>
+            <option value="Beer-Sheva">Beer-Sheva</option>
+          </datalist>
+          <p>Super Powers:</p>
+          <input type="radio" id="power1">
+          <label for="power1">Flash fast Coding</label> <br>
+          <input type="radio" id="power2">
+          <label for="power2">Wonder-Designer</label> <br>
+          <input type="radio" id="power3">
+          <label for="power3">Super-Learning</label> <br>
+          <input type="checkbox" id="android" required>
+          <label for="android">I am not an Android</label> 
+          <div class="btn-1">
+            <button class="btn btn-pimary">Submit</button>
+          </div>
+        </form>
+      </div>
+    </div>
+  </section> 
+</body>
+</html>
